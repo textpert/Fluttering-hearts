@@ -1,0 +1,36 @@
+.main-div {
+  text-align: center;
+
+}
+.hearts-img{
+  width:50px;
+}
+
+/* .hearts-img:hover{
+  transform: translate(30%, 50%);
+  color: pink;
+  cursor: pointer;
+} */
+.hearts-img {
+  animation: heart-beat 3s infinite;
+  /* animation-name: heart-beat; */
+  /* animation-duration: 2s infinite; */
+  /* animation-timing-function: cubic-bezier(); */
+}
+
+@keyframes heart-beat {
+  from {
+    margin-left: auto;
+    width: 50px;
+  }
+
+  50%{
+    margin-left: auto;
+    width: 60px;  
+  }
+
+  to {
+    margin-left: auto;
+    width: 50px;
+  }
+}
