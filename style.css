@@ -1,22 +1,31 @@
-.main-div {
+body{
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
+  font-size: 40px;
+}
+
+.main-div {
+  display: inline-block;
 
 }
+
+
 .hearts-img{
   width:50px;
 }
 
-/* .hearts-img:hover{
-  transform: translate(30%, 50%);
-  color: pink;
-  cursor: pointer;
-} */
+
 .hearts-img {
   animation: heart-beat 3s infinite;
-  /* animation-name: heart-beat; */
-  /* animation-duration: 2s infinite; */
-  /* animation-timing-function: cubic-bezier(); */
 }
+
+
+.text{
+  position: relative;
+  bottom: 15px;
+  /* border: 2px solid; */
+}
+
 
 @keyframes heart-beat {
   from {
@@ -26,7 +35,7 @@
 
   50%{
     margin-left: auto;
-    width: 60px;  
+    width: 60px;
   }
 
   to {
