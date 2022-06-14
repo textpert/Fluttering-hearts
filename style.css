@@ -2,6 +2,11 @@ body{
   font-family: 'Permanent Marker', cursive;
   text-align: center;
   font-size: 40px;
+  background-color: pink;
+}
+
+main{
+  transform: translate(0, 500%);
 }
 
 .main-div {
