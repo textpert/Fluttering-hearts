@@ -90,9 +90,10 @@ border-radius: 100%;
   height: 20px;
   background-color: pink;
   animation: blink-down 2s infinite;
+
   /* animation-duration: 10s; */
-  /* animation-delay: 2.5s; */
-  animation-timing-function: linear;
+   /* animation-delay: 1s; */
+  animation-timing-function:linear;
 }
 
 
@@ -101,12 +102,21 @@ border-radius: 100%;
   transform: translateY(18px);
   }
 
-  50%{
+  50% {
+  transform: translateY(-5px);
+  }
+  60%{
     transform: translateY(-5px);
   }
 
-  to {
+  80% {
   transform: translateY(18px);
+  }
+  90% {
+  transform: translateY(18px);
+  }
+  100%{
+    transform: translateY(18px);
   }
 }
 
@@ -120,7 +130,7 @@ border-radius: 100%;
   background-color: pink;
   /* animation-duration: 10s; */
   animation: blink-up 2s infinite;
-  /* animation-delay: 2.5s; */
+   /* animation-delay: 1s; */
   animation-timing-function: linear;
 }
 
@@ -129,12 +139,19 @@ border-radius: 100%;
   from {
   transform: translateY(-18px);
   }
-
   50%{
     transform: translateY(5px);
   }
-
-  to {
+  60%{
+    transform: translateY(5px);
+  }
+  80%{
+  transform: translateY(-18px);
+  }
+  90%{
+  transform: translateY(-18px);
+  }
+  100%{
   transform: translateY(-18px);
   }
 }
