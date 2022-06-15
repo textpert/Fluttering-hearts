@@ -109,12 +109,12 @@ border-radius: 100%;
     transform: translateY(-5px);
   }
 
-  80% {
+  60% {
   transform: translateY(18px);
   }
-  90% {
+  /* 90% {
   transform: translateY(18px);
-  }
+  } */
   100%{
     transform: translateY(18px);
   }
@@ -145,12 +145,12 @@ border-radius: 100%;
   60%{
     transform: translateY(5px);
   }
-  80%{
+  60%{
   transform: translateY(-18px);
   }
-  90%{
+  /* 90%{
   transform: translateY(-18px);
-  }
+  } */
   100%{
   transform: translateY(-18px);
   }
